@@ -3,10 +3,10 @@ import { Card, CardContent } from '@/components/ui/card'
 import { dayjs } from '@/lib/dayjs'
 
 interface Question {
-  id: string
-  question: string
-  answer?: string | null
-  createdAt: string
+  id        : string
+  question  : string
+  answer    ?: string | null
+  createdAt : string
 }
 
 interface QuestionItemProps {
